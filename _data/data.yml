@@ -8,27 +8,27 @@ sidebar:
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    name: Diego Russo
+    tagline: Principal Software Engineer
+    avatar: diegor.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    timezone: America/Cancun Timezone
-    citizenship:
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    xing: alandoe
-    github: sharu725
-    telegram: # add your nickname without '@' sign
+    email: me@diegor.it
+    phone: +44 7428 251191
+    timezone: Europe/London Timezone
+    citizenship: Italian/British
+    website: www.diegor.it #do not add http://
+    linkedin: diegor
+    xing:
+    github: diegorusso
+    telegram: diegorusso # add your nickname without '@' sign
     gitlab:
-    bitbucket:
-    twitter: '@webjeda'
+    bitbucket: diegor
+    twitter: '@diegor'
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: http://www.africau.edu/images/default/sample.pdf
+    pdf: https://raw.githubusercontent.com/diegorusso/cv/master/diego_russo_cv_en.pdf
 
     languages:
       title: Languages
