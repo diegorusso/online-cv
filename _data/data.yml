@@ -8,31 +8,31 @@ sidebar:
   education: True # set to False if you want education in main section instead of in sidebar
 
   # Profile information
-  name: Alan Doe
-  tagline: Full Stack Developer
-  avatar: profile.png #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+  name: Diego Russo
+  tagline: Python Core Developer | Principal Software Engineer
+  avatar: diegor.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
   # Sidebar links
-  email: example@email.com
-  phone: 012 345 6789
-  timezone: America/Cancun # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
-  citizenship:
-  website: https://example.com/ # Include the full website URL, including "http://" or "https://".
-  linkedin: alandoe
-  xing: alandoe
-  github: jekyll
-  telegram: # add your nickname without '@' sign
+  email: me@diegor.it
+  phone: +44 7428 251191
+  timezone: Europe/London Timezone
+  citizenship: Italian/British
+  website: www.diegor.it #do not add http://
+  linkedin: diegor
+  xing:
+  github: diegorusso
+  telegram: diegorusso # add your nickname without '@' sign
   gitlab:
-  bitbucket:
-  bluesky: '@jekyllrb.bsky.social' # Specify your full Bluesky handle
-  twitter: '@jekyllrb'
+  bitbucket: diegor
+  bluesky: '@diegor.it' # Specify your full Bluesky handle
+  twitter: '@diegor'
   stack-overflow: # Number/Username, e.g. 123456/alandoe
   codewars:
   goodreads: # Number-Username, e.g. 123456-alandoe
   mastodon: # Please include your full Mastodon link here.
   hackerrank: # Please provide your HackerRank username.
   leetcode: # Please provide your LeetCode username.
-  pdf: # Add a PDF link here if you want to include a PDF custom version in your resume.
+  pdf: https://raw.githubusercontent.com/diegorusso/cv/master/diego_russo_cv_en.pdf
 
   languages:
     title: Languages
