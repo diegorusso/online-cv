@@ -3,9 +3,9 @@
 #
 
 sidebar:
-    position: right # position of the sidebar : left or right
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
+    position: left # position of the sidebar : left or right
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: False # set to False if you want education in main section instead of in sidebar
 
     # Profile information
     name: Diego Russo
@@ -14,7 +14,7 @@ sidebar:
 
     # Sidebar links
     email: me@diegor.it
-    phone: +44 7428 251191
+    phone: +44 (0) 7428 251191
     timezone: Europe/London Timezone
     citizenship: Italian/British
     website: www.diegor.it #do not add http://
@@ -28,85 +28,64 @@ sidebar:
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: https://raw.githubusercontent.com/diegorusso/cv/master/diego_russo_cv_en.pdf
+    pdf: https://raw.githubusercontent.com/diegorusso/cv/main/diego_russo_cv_en.pdf
 
     languages:
       title: Languages
       info:
         - idiom: English
-          level: Native
-
-        - idiom: French
-          level: Professional
+          level: Fluent
 
         - idiom: Spanish
-          level: Professional
+          level: Fluent
 
-    interests:
-      title: Interests
-      info:
-        - item: Climbing
-          link:
-
-        - item: Snowboarding
-          link:
-
-        - item: Cooking
-          link:
+        - idiom: Italian
+          level: Native
 
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
-education:
-    title: Education
-    info:
-      - degree: MSc in Computer Science
-        university: University of London
-        time: 2011 - 2012
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - degree: BSc in Applied Mathematics
-        university: Bristol University
-        time: 2007 - 2011
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
+      Proactive, innovative software development/engineering professional
+      with over 17 years’ expertise leading multiple global teams on
+      technical projects aimed at software/application improvement, system
+      enhancement, and process automation. Excellent cross-functional
+      communicator and motivational team leader with proven success delivering
+      solutions in alignment with business and stakeholder requirements.
+      Highly motivated towards applying diverse experience in machine learning,
+      product-driven environments as well as Open Source projects.
+      Adept at leveraging knowledge and experience in Python, software design,
+      deployment, and technical support to improve business processes and
+      drive operational excellence. Value-added skills in staff training,
+      client/partner relationship management, compliance/design standard
+      management, troubleshooting, presentation, Python, and Linux.
 
 experiences:
-    title: Experiences
+    title: Career Experience
     info:
-      - role: Lead Developer
-        time: 2015 - Present
-        company: Startup Hubs, San Francisco
+      - role: Principal Software Engineer
+        time: 2023 - Present
+        company: CE-SW Runtimes, Arm Ltd., Cambridge, UK
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-          error sit voluptatem accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-            - Bullet point
-            - Bullet point
+          **Technical Scope**: Tech Lead, CPython.
+
+          After a successful 6 months secondment, I’m joining the Runtimes
+          team to continue the work I started with CPython. I will be engaging
+          more with upstream community and bring my expertise to make CPython
+          and its ecosystem work flawlessly for developers around the world
+          on Arm platforms.
+
+      - role: Principal Software Engineer
+        time: 2023
+        company: CE-SW Runtimes (6 months secondment), Arm Ltd., Cambridge, UK
+        details: |
+          **Technical Scope**: Tech Lead, CPython.
+
+          As part of the secondment programme, I spent six months in the CE-SW
+          Runtimes team looking at the status of CPython (and its ecosystem) on
+          Arm platforms. I’ve engaging with Arm’s partners and the upstream
+          community in order to address potential gaps.
+            - I presented at EuroPython 2023: ["Python on Arm architecture"](https://www.youtube.com/watch?v=nYf7r0lkTIs)
+
       - role: Senior Software Engineer
         time: 2014 - 2015
         company: Google, London
@@ -130,136 +109,139 @@ experiences:
             - Bullet point
             - Bullet point
 
-certifications:
-      title: Certifications
-      list:
-        - name: CV Builder
-          start: 2020
-          end: 2021
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.google.com
-          credentialname: Google
+    additional:
+      title: Additional Experience
+      info:
+        - role: UI Developer
+          time: 2012 - 2014
+          company: Amazon, London
           details: |
-            Details about cert. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
+            Describe your role here lorem ipsum dolor sit amet, consectetuer
+            adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+            Cum sociis natoque penatibus et magnis dis parturient montes,
+            nascetur ridiculus mus. Donec quam felis, ultricies nec,
+            pellentesque eu, pretium quis, sem.
+              - Bullet point
+              - Bullet point
 
-            Second paragraph. Sed eleifend enim ante, vitae efficitur purus
-            fringilla vel. Ut euismod, sem sed vulputate venenatis,
-            justo diam viverra velit, sed rhoncus leo leo eu justo.
-            Suspendisse placerat risus ante, sed porta nisi blandit at.
-        - name: Git learning
-          start: 2019
+education:
+    title: Education
+    info:
+      - degree: "Master of Science in Computer Science (Security)"
+        university: University of Perugia, Perugia, IT
+        result: "IT: 110/110 cum laude — UK: First class honours"
+        time: 2021
+        details: |
+          Thesis: [Pruning layers of a neural network with a heuristic-based approach.](https://github.com/diegorusso/master-degree-thesis)
+
+      - degree: "Bachelor of Science in Computer Science (Networking)"
+        university: University of Perugia, Perugia, IT
+        result: "IT: 102/110 — UK: 2:1"
+        time: 2006
+        details: |
+          Thesis: Wireless Broadband Network/WeConnect project.
+
+      - degree: "Accountant programmer Diploma (Mercurio project)"
+        university: Ministry of Public Education, Commercial Technical Institute, Federico Cesi, Terni, IT
+        result: "IT: 85/100 — UK: A"
+        time: 2002
+        details:
+
+certifications:
+      title: Professional Training
+      list:
+        - name: Advanced Python Training
+          start: 2022
           end:
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.github.com
-          credentialname: Github
-          details: |
-            Older certification. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
+          organization: Arm Ltd., Cambridge, UK
+          credentialid:
+          credentialurl: https://www.learningtree.co.uk/courses/advanced-python-course/
+          credentialname: Learning Tree
+          details:
+
+        - name: C++ Programming for Embedded Systems
+          start: 2021
+          end:
+          organization: Arm Ltd., Cambridge, UK
+          credentialid:
+          credentialurl: https://www.doulos.com
+          credentialname: Doulos
+          details:
+
+        - name:
+          start:
+          end:
+          organization: Arm Ltd., Cambridge, UK
+          credentialid:
+          credentialurl:
+          credentialname:
+          details:
+
+        - name:
+          start:
+          end:
+          organization: Arm Ltd., Cambridge, UK
+          credentialid:
+          credentialurl:
+          credentialname:
+          details:
+
+        - name:
+          start:
+          end:
+          organization: Arm Ltd., Cambridge, UK
+          credentialid:
+          credentialurl:
+          credentialname:
+          details:
+
+        - name:
+          start:
+          end:
+          organization: Arm Ltd., Cambridge, UK
+          credentialid:
+          credentialurl:
+          credentialname:
+          details:
+
+        - name:
+          start:
+          end:
+          organization: Arm Ltd., Cambridge, UK
+          credentialid:
+          credentialurl:
+          credentialname:
+          details:
+
+        - name:
+          start:
+          end:
+          organization: Arm Ltd., Cambridge, UK
+          credentialid:
+          credentialurl:
+          credentialname:
+          details:
+
 
 projects:
-    title: Projects
-    intro: >
-      You can list your side projects in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    title: Licenses
+    intro:
     assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
-
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
-
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-oss:
-    title: OSS Contributions
-    intro: >
-      You can list your open source software contributions in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    contributions:
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+      - title:
+        tagline: Radio-amateur class A license (Nr. 020122/AN)/ International
+          callsign IZ0OVB – C.I.S.A.R. Foligno’s section – 2007
 
 publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
+    title: Affiliations
+    intro:
     papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
+      - title: The AES implementation based on OpenCL for multi/many core architecture
+        link: "https://doi.org/10.1109/ICCSA.2010.44"
+        conference: ICCSA 2010, Sangyo Uni., Fukuoka, JP
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
-
-skills:
-    title: Skills &amp; Proficiency
-
-    toolset:
-      - name: Python & Django
-        level: 98%
-
-      - name: Javascript & jQuery
-        level: 98%
-
-      - name: Angular
-        level: 98%
-
-      - name: HTML5 & CSS
-        level: 95%
-
-      - name: Ruby on Rails
-        level: 85%
-
-      - name: Sketch & Photoshop
-        level: 60%
+      - title: "EuroPython Conference: Volunteer/Attendee"
+        link: "https://europython.eu"
+        conference: "Florence, Berlin, Bilbao, Rimini, Edinburgh, Online, Prague"
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
