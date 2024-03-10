@@ -86,43 +86,141 @@ experiences:
           community in order to address potential gaps.
             - I presented at EuroPython 2023: ["Python on Arm architecture"](https://www.youtube.com/watch?v=nYf7r0lkTIs)
 
-      - role: Senior Software Engineer
-        time: 2014 - 2015
-        company: Google, London
+      - role: Principal/Staff Software Engineer
+        time: 2020 - 2023
+        company: ML Group, Arm Ltd., Cambridge, UK
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - role: UI Developer
-        time: 2012 - 2014
-        company: Amazon, London
+          **Technical Scope**: Tech Lead, Python, Machine Learning, IP Evaluation, Inference Advisor, Software Quality.
+
+          Act as lead for [Arm ML Inference Advisor](https://pypi.org/project/mlia/)
+          project while coordinating technical operations and communications
+          between ML and Arm teams. Design, code, and debug software. Identify
+          areas for software improvements and implement fixes. Train personnel
+          when required and ensure maintenance of existing software.
+          Provide recommendations on technologies to boost productivity.
+          Oversee technical projects and address software-related queries.
+          Manage software performance and attend team meetings.
+          Formulate solutions to current and potential issues.
+          Previous project: IP Selection Sandbox for ML.
+            - Help AI/ML developers to tailor and optimise their ML models to run well on Arm hardware: [https://pypi.org/project/mlia/](https://pypi.org/project/mlia/)
+            - Enabled client’s opportunity to evaluate right IP for ML workloads.
+            - Established and grew Python Guild to over 700 members.
+
+      - role: Staff Software Engineer
+        time: 2017 - 2019
+        company: ISG, Arm Ltd., Cambridge, UK
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
+          **Technical Scope**: Jenkins/Pipelines, LAVA, Artifactory, Docker, Python, Bash, Linux, GitHub.
+
+          Led build, test, data representation, and validation automation
+          infrastructure for company product. Liaised with multiple global
+          teams and external partners. Monitored product development life cycle
+          and outlined product requirements. Developed engineering system
+          documents and design software. Provided detailed design
+          specifications outlining functional requirements and architectural
+          constraints. Implemented efficient coding practices and resolved
+          software defects. Reviewed product specifications, system design,
+          and protocol specifications. Reported on projects and issues.
+          Contributed towards process improvement.
+            - Designed automated build and test infrastructure from scratch on
+            real Cortex-A boards for custom Linux distribution.
+
+      - role: Staff Software Engineer
+        time: 2013 - 2017
+        company: DSG, Arm Ltd., Cambridge, UK
+        details: |
+          **Technical Scope**: Python, flask, bootstrap, AngularJS, MongoDB, Linux, svn/Git
+
+
+          Supervised and led eight-member team while managing Arm Compiler and
+          OSS toolchains automation infrastructures. Ensured compliance with
+          design principles while sharing knowledge, processes, and
+          technologies with various teams. Hosted monthly forum to address
+          stakeholder requirements. Acted as business representative on DSG
+          infrastructures.
+            - Collaborated with GNU team on delivery of optimised GNU toolchain for Arm processors.
+            - Drove development of infrastructure for automated builds, tests,
+            and benchmarks.
+            - Created application for triaging GCC test results, storing
+            results in database in order for analysis and identification of
+            root causes, patterns, trends, and automation of issue tracking
+            using Jira.
+
+      - role: Senio Software Engineer
+        time: 2011 - 2013
+        company: Engineering IT, Arm Ltd., Cambridge, UK
+        details: |
+          **Technical Scope**: Python, MongoDB, RabbitMQ, Java, Jira, LSF, Perl, C, tcsh, bash, Linux, svn/Git
+
+          Contributed to multiple internal projects, including development of
+          fault tolerant application which interacted with LFS cluster and AMQ
+          server. Developed Jira plug-in aimed at interacting with internal
+          software to enable synchronization of external and internal tickets.
+          Maintained and enhanced internal IT systems.
+            - Planned and executed IT Early Career Scheme aimed at recruiting interns and graduates.
+
+      - role: Software/System Engineer
+        time: 2008 - 2011
+        company: R&D, Forinicom Srl, Bastia Umbra, IT
+        details: |
+          **Technical Scope**: Python/Django, PostgreSQL, Debian, XEN, PyQT, Git
+
+          Delivered innovative product in collaboration with research and
+          development team. Executed operations on embedded systems which
+          included OS/software customisation for authentication management.
+          Developed solution aimed at managing hotspots. Created captive portal
+          for management of authentication, sign up, session logs, remote
+          device signals, and integration with management software.
+          Designed software for network monitoring.
+            - Set up internet connection and enabled fast connectivity for
+            rural areas, providing services to hundreds of clients.
+            - Designed and implemented hotspot system with captive portal and
+            credit card payments for numerous tourists; used at EuroPython 2011.
+
+      - role: Python/Django Engineer
+        time: 2006 - 2008
+        company: Consorzio Miles, Servizi Integrati, Rome/Assisi, IT
+        details: |
+          **Technical Scope**: Python/Django, PostgreSQL, Linux
+
+          Delivered in collaboration with a team the replacement of paper-based
+          manual processes with automated/digital processes. Maintained project
+          in VB and led migration to Python/Django which enabled citizens to
+          follow and update processes online and interact in real time with
+          municipality.
 
     additional:
       title: Additional Experience
       info:
-        - role: UI Developer
-          time: 2012 - 2014
-          company: Amazon, London
+        - role: Software Engineer
+          time: 2013 - 2015
+          company: Opentaste Ltd., Global (remote, spare time project)
           details: |
-            Describe your role here lorem ipsum dolor sit amet, consectetuer
-            adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-            Cum sociis natoque penatibus et magnis dis parturient montes,
-            nascetur ridiculus mus. Donec quam felis, ultricies nec,
-            pellentesque eu, pretium quis, sem.
-              - Bullet point
-              - Bullet point
+            **Technical Scope**: Technical advisor, code review, Python, Flask, MongoDB
+
+        - role: Objective-C Engineer
+          time: 2011-05 / 2011-06
+          company: Forinicom Srl., Bastia Umbra, IT (contract)
+          details: |
+            **Technical Scope**: Hotspot Captive Portal app, used at Europython 2011 in Florence
+
+        - role: Python Engineer
+          time: 2010–11 / 2011–01
+          company: Exion Sagl, Manno, CH (remote, contract)
+          details: |
+            **Technical Scope**: Python, Django, PostgreSQL
+
+        - role: Python Engineer
+          time: 2010–10 / 2011-01
+          company: Sauce Labs Inc., San Francisco, USA (remove, contract)
+          details: |
+            **Technical Scope**: Python, Pylons, GitHub
+
+        - role: SEO Engineer
+          time: 2005-11 / 2006-05
+          company: Wedoit Sas., Assisi, IT (Internship)
+          details: |
+            **Technical Scope**: SEO, Python, PHP
 
 education:
     title: Education
@@ -150,6 +248,15 @@ education:
 certifications:
       title: Professional Training
       list:
+        - name: Expert Product Development wiht Python
+          start: 2022
+          end:
+          organization: Arm Ltd., Cambridge, UK
+          credentialid:
+          credentialurl: https://www.doulos.com/epdp
+          credentialname: Doulos
+          details:
+
         - name: Advanced Python Training
           start: 2022
           end:
@@ -168,59 +275,60 @@ certifications:
           credentialname: Doulos
           details:
 
-        - name:
-          start:
+        - name: Practical Deep Learning
+          start: 2020
           end:
           organization: Arm Ltd., Cambridge, UK
           credentialid:
           credentialurl:
-          credentialname:
+          credentialname: Doulos
           details:
 
-        - name:
-          start:
+        - name: iPhone (iOS9) and Swift 2.2
+          start: 2016
           end:
           organization: Arm Ltd., Cambridge, UK
           credentialid:
           credentialurl:
-          credentialname:
+          credentialname: University of Perugia, Perugia, IT
+          details: |
+            [DipMatBeacon](https://github.com/diegorusso/DipMatBeacon) - App used to check the booking state of university rooms
+
+        - name: MongoDB Administration and Developers training
+          start: 2015
+          end:
+          organization: Arm Ltd., Cambridge, UK
+          credentialid:
+          credentialurl:
+          credentialname: MongoDB
           details:
 
-        - name:
-          start:
+        - name: Cryptography 1
+          start: 2014
           end:
-          organization: Arm Ltd., Cambridge, UK
+          organization: Online
           credentialid:
-          credentialurl:
-          credentialname:
+          credentialurl: http://bit.ly/coursera-crypto1
+          credentialname: Coursera
           details:
 
-        - name:
-          start:
+        - name: ITIL Foundation
+          start: 2013
           end:
           organization: Arm Ltd., Cambridge, UK
           credentialid:
           credentialurl:
-          credentialname:
+          credentialname: ILX Group
           details:
 
-        - name:
-          start:
+        - name: iPhone (iOS4) and Objective-C
+          start: 2011
           end:
-          organization: Arm Ltd., Cambridge, UK
+          organization: University of Perugia, Perugia, IT
           credentialid:
           credentialurl:
           credentialname:
-          details:
-
-        - name:
-          start:
-          end:
-          organization: Arm Ltd., Cambridge, UK
-          credentialid:
-          credentialurl:
-          credentialname:
-          details:
+          details: Customised existent VOIP app
 
 
 projects:
