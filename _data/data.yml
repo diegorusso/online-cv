@@ -3,250 +3,353 @@
 #
 
 sidebar:
-  position: left # position of the sidebar : left or right
-  about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
-  education: False # set to False if you want education in main section instead of in sidebar
+    position: left # position of the sidebar : left or right
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: False # set to False if you want education in main section instead of in sidebar
 
-  # Profile information
-  name: Diego Russo
-  tagline: Python Core Developer | Principal Software Engineer
-  avatar: diegor.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    # Profile information
+    name: Diego Russo
+    tagline: Principal Software Engineer
+    avatar: diegor.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
-  # Sidebar links
-  email: me@diegor.it
-  phone: +44 7428 251191
-  timezone: Europe/London Timezone
-  citizenship: Italian/British
-  website: www.diegor.it #do not add http://
-  linkedin: diegor
-  xing:
-  github: diegorusso
-  telegram: diegorusso # add your nickname without '@' sign
-  gitlab:
-  bitbucket: diegor
-  bluesky: '@diegor.it' # Specify your full Bluesky handle
-  twitter: '@diegor'
-  stack-overflow: # Number/Username, e.g. 123456/alandoe
-  codewars:
-  goodreads: # Number-Username, e.g. 123456-alandoe
-  mastodon: # Please include your full Mastodon link here.
-  hackerrank: # Please provide your HackerRank username.
-  leetcode: # Please provide your LeetCode username.
-  pdf: https://raw.githubusercontent.com/diegorusso/cv/master/diego_russo_cv_en.pdf
+    # Sidebar links
+    email: me@diegor.it
+    phone: +44 (0) 7428 251191
+    timezone: Europe/London Timezone
+    citizenship: Italian/British
+    website: www.diegor.it #do not add http://
+    linkedin: diegor
+    xing:
+    github: diegorusso
+    telegram: diegorusso # add your nickname without '@' sign
+    gitlab:
+    bitbucket: diegor
+    twitter: '@diegor'
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+    codewars:
+    goodreads: # Number-Username, e.g. 123456-alandoe
+    pdf: https://raw.githubusercontent.com/diegorusso/cv/main/diego_russo_cv_en.pdf
 
+    languages:
+      title: Languages
+      info:
+        - idiom: English
+          level: Fluent
 
-  languages:
-    title: Languages
-    info:
-      - idiom: English
-        level: Fluent
+        - idiom: Spanish
+          level: Fluent
 
-      - idiom: Spanish
-        level: Fluent
-
-      - idiom: Italian
-        level: Native
+        - idiom: Italian
+          level: Native
 
 career-profile:
-  title: Career Profile
-  summary: |
-    Proactive, innovative software development/engineering professional
-    with over 17 years’ expertise leading multiple global teams on
-    technical projects aimed at software/application improvement, system
-    enhancement, and process automation. Excellent cross-functional
-    communicator and motivational team leader with proven success delivering
-    solutions in alignment with business and stakeholder requirements.
-    Highly motivated towards applying diverse experience in machine learning,
-    product-driven environments as well as Open Source projects.
-    Adept at leveraging knowledge and experience in Python, software design,
-    deployment, and technical support to improve business processes and
-    drive operational excellence. Value-added skills in staff training,
-    client/partner relationship management, compliance/design standard
-    management, troubleshooting, presentation, Python, and Linux.
+    title: Career Profile
+    summary: |
+      Proactive, innovative software development/engineering professional
+      with over 17 years’ expertise leading multiple global teams on
+      technical projects aimed at software/application improvement, system
+      enhancement, and process automation. Excellent cross-functional
+      communicator and motivational team leader with proven success delivering
+      solutions in alignment with business and stakeholder requirements.
+      Highly motivated towards applying diverse experience in machine learning,
+      product-driven environments as well as Open Source projects.
+      Adept at leveraging knowledge and experience in Python, software design,
+      deployment, and technical support to improve business processes and
+      drive operational excellence. Value-added skills in staff training,
+      client/partner relationship management, compliance/design standard
+      management, troubleshooting, presentation, Python, and Linux.
 
 experiences:
-  title: Career Experience
-  info:
-    - role: Principal Software Engineer
-      time: 2023 - Present
-      company: CE-SW Runtimes, Arm Ltd., Cambridge, UK
-      details: |
-        **Technical Scope**: Tech Lead, CPython.
-
-        After a successful 6 months secondment, I’m joining the Runtimes
-        team to continue the work I started with CPython. I will be engaging
-        more with upstream community and bring my expertise to make CPython
-        and its ecosystem work flawlessly for developers around the world
-        on Arm platforms.
-
-    - role: Principal Software Engineer
-      time: 2023
-      company: CE-SW Runtimes (6 months secondment), Arm Ltd., Cambridge, UK
-      details: |
-        **Technical Scope**: Tech Lead, CPython.
-
-        As part of the secondment programme, I spent six months in the CE-SW
-        Runtimes team looking at the status of CPython (and its ecosystem) on
-        Arm platforms. I’ve engaging with Arm’s partners and the upstream
-        community in order to address potential gaps.
-          - I presented at EuroPython 2023: ["Python on Arm architecture"](https://www.youtube.com/watch?v=nYf7r0lkTIs)
-
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
-
-  additional:
-    title: Additional Experience
+    title: Career Experience
     info:
-      - role: UI Developer
-        time: 2012 - 2014
-        company: Amazon, London
+      - role: Principal Software Engineer
+        time: 2023 - Present
+        company: CE-SW Runtimes, Arm Ltd., Cambridge, UK
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
+          **Technical Scope**: Tech Lead, CPython.
+
+          After a successful 6 months secondment, I’m joining the Runtimes
+          team to continue the work I started with CPython. I will be engaging
+          more with upstream community and bring my expertise to make CPython
+          and its ecosystem work flawlessly for developers around the world
+          on Arm platforms.
+
+      - role: Principal Software Engineer
+        time: 2023
+        company: CE-SW Runtimes (6 months secondment), Arm Ltd., Cambridge, UK
+        details: |
+          **Technical Scope**: Tech Lead, CPython.
+
+          As part of the secondment programme, I spent six months in the CE-SW
+          Runtimes team looking at the status of CPython (and its ecosystem) on
+          Arm platforms. I’ve engaging with Arm’s partners and the upstream
+          community in order to address potential gaps.
+            - I presented at EuroPython 2023: ["Python on Arm architecture"](https://www.youtube.com/watch?v=nYf7r0lkTIs)
+
+      - role: Principal/Staff Software Engineer
+        time: 2020 - 2023
+        company: ML Group, Arm Ltd., Cambridge, UK
+        details: |
+          **Technical Scope**: Tech Lead, Python, Machine Learning, IP Evaluation, Inference Advisor, Software Quality.
+
+          Act as lead for [Arm ML Inference Advisor](https://pypi.org/project/mlia/)
+          project while coordinating technical operations and communications
+          between ML and Arm teams. Design, code, and debug software. Identify
+          areas for software improvements and implement fixes. Train personnel
+          when required and ensure maintenance of existing software.
+          Provide recommendations on technologies to boost productivity.
+          Oversee technical projects and address software-related queries.
+          Manage software performance and attend team meetings.
+          Formulate solutions to current and potential issues.
+          Previous project: IP Selection Sandbox for ML.
+            - Help AI/ML developers to tailor and optimise their ML models to run well on Arm hardware: [https://pypi.org/project/mlia/](https://pypi.org/project/mlia/)
+            - Enabled client’s opportunity to evaluate right IP for ML workloads.
+            - Established and grew Python Guild to over 700 members.
+
+      - role: Staff Software Engineer
+        time: 2017 - 2019
+        company: ISG, Arm Ltd., Cambridge, UK
+        details: |
+          **Technical Scope**: Jenkins/Pipelines, LAVA, Artifactory, Docker, Python, Bash, Linux, GitHub.
+
+          Led build, test, data representation, and validation automation
+          infrastructure for company product. Liaised with multiple global
+          teams and external partners. Monitored product development life cycle
+          and outlined product requirements. Developed engineering system
+          documents and design software. Provided detailed design
+          specifications outlining functional requirements and architectural
+          constraints. Implemented efficient coding practices and resolved
+          software defects. Reviewed product specifications, system design,
+          and protocol specifications. Reported on projects and issues.
+          Contributed towards process improvement.
+            - Designed automated build and test infrastructure from scratch on
+            real Cortex-A boards for custom Linux distribution.
+
+      - role: Staff Software Engineer
+        time: 2013 - 2017
+        company: DSG, Arm Ltd., Cambridge, UK
+        details: |
+          **Technical Scope**: Python, flask, bootstrap, AngularJS, MongoDB, Linux, svn/Git
+
+
+          Supervised and led eight-member team while managing Arm Compiler and
+          OSS toolchains automation infrastructures. Ensured compliance with
+          design principles while sharing knowledge, processes, and
+          technologies with various teams. Hosted monthly forum to address
+          stakeholder requirements. Acted as business representative on DSG
+          infrastructures.
+            - Collaborated with GNU team on delivery of optimised GNU toolchain for Arm processors.
+            - Drove development of infrastructure for automated builds, tests,
+            and benchmarks.
+            - Created application for triaging GCC test results, storing
+            results in database in order for analysis and identification of
+            root causes, patterns, trends, and automation of issue tracking
+            using Jira.
+
+      - role: Senio Software Engineer
+        time: 2011 - 2013
+        company: Engineering IT, Arm Ltd., Cambridge, UK
+        details: |
+          **Technical Scope**: Python, MongoDB, RabbitMQ, Java, Jira, LSF, Perl, C, tcsh, bash, Linux, svn/Git
+
+          Contributed to multiple internal projects, including development of
+          fault tolerant application which interacted with LFS cluster and AMQ
+          server. Developed Jira plug-in aimed at interacting with internal
+          software to enable synchronization of external and internal tickets.
+          Maintained and enhanced internal IT systems.
+            - Planned and executed IT Early Career Scheme aimed at recruiting interns and graduates.
+
+      - role: Software/System Engineer
+        time: 2008 - 2011
+        company: R&D, Forinicom Srl, Bastia Umbra, IT
+        details: |
+          **Technical Scope**: Python/Django, PostgreSQL, Debian, XEN, PyQT, Git
+
+          Delivered innovative product in collaboration with research and
+          development team. Executed operations on embedded systems which
+          included OS/software customisation for authentication management.
+          Developed solution aimed at managing hotspots. Created captive portal
+          for management of authentication, sign up, session logs, remote
+          device signals, and integration with management software.
+          Designed software for network monitoring.
+            - Set up internet connection and enabled fast connectivity for
+            rural areas, providing services to hundreds of clients.
+            - Designed and implemented hotspot system with captive portal and
+            credit card payments for numerous tourists; used at EuroPython 2011.
+
+      - role: Python/Django Engineer
+        time: 2006 - 2008
+        company: Consorzio Miles, Servizi Integrati, Rome/Assisi, IT
+        details: |
+          **Technical Scope**: Python/Django, PostgreSQL, Linux
+
+          Delivered in collaboration with a team the replacement of paper-based
+          manual processes with automated/digital processes. Maintained project
+          in VB and led migration to Python/Django which enabled citizens to
+          follow and update processes online and interact in real time with
+          municipality.
+
+    additional:
+      title: Additional Experience
+      info:
+        - role: Software Engineer
+          time: 2013 - 2015
+          company: Opentaste Ltd., Global (remote, spare time project)
+          details: |
+            **Technical Scope**: Technical advisor, code review, Python, Flask, MongoDB
+
+        - role: Objective-C Engineer
+          time: 2011-05 / 2011-06
+          company: Forinicom Srl., Bastia Umbra, IT (contract)
+          details: |
+            **Technical Scope**: Hotspot Captive Portal app, used at Europython 2011 in Florence
+
+        - role: Python Engineer
+          time: 2010–11 / 2011–01
+          company: Exion Sagl, Manno, CH (remote, contract)
+          details: |
+            **Technical Scope**: Python, Django, PostgreSQL
+
+        - role: Python Engineer
+          time: 2010–10 / 2011-01
+          company: Sauce Labs Inc., San Francisco, USA (remove, contract)
+          details: |
+            **Technical Scope**: Python, Pylons, GitHub
+
+        - role: SEO Engineer
+          time: 2005-11 / 2006-05
+          company: Wedoit Sas., Assisi, IT (Internship)
+          details: |
+            **Technical Scope**: SEO, Python, PHP
 
 education:
-  title: Education
-  info:
-    - degree: "Master of Science in Computer Science (Security)"
-      university: University of Perugia, Perugia, IT
-      result: "IT: 110/110 cum laude — UK: First class honours"
-      time: 2021
-      details: |
-        Thesis: [Pruning layers of a neural network with a heuristic-based approach.](https://github.com/diegorusso/master-degree-thesis)
+    title: Education
+    info:
+      - degree: "Master of Science in Computer Science (Security)"
+        university: University of Perugia, Perugia, IT
+        result: "IT: 110/110 cum laude — UK: First class honours"
+        time: 2021
+        details: |
+          Thesis: [Pruning layers of a neural network with a heuristic-based approach.](https://github.com/diegorusso/master-degree-thesis)
 
-    - degree: "Bachelor of Science in Computer Science (Networking)"
-      university: University of Perugia, Perugia, IT
-      result: "IT: 102/110 — UK: 2:1"
-      time: 2006
-      details: |
-        Thesis: Wireless Broadband Network/WeConnect project.
+      - degree: "Bachelor of Science in Computer Science (Networking)"
+        university: University of Perugia, Perugia, IT
+        result: "IT: 102/110 — UK: 2:1"
+        time: 2006
+        details: |
+          Thesis: Wireless Broadband Network/WeConnect project.
 
-    - degree: "Accountant programmer Diploma (Mercurio project)"
-      university: Ministry of Public Education, Commercial Technical Institute, Federico Cesi, Terni, IT
-      result: "IT: 85/100 — UK: A"
-      time: 2002
-      details:
+      - degree: "Accountant programmer Diploma (Mercurio project)"
+        university: Ministry of Public Education, Commercial Technical Institute, Federico Cesi, Terni, IT
+        result: "IT: 85/100 — UK: A"
+        time: 2002
+        details:
 
 certifications:
-  title: Professional Training
-  list:
-    - name: Advanced Python Training
-      start: 2022
-      end:
-      organization: Arm Ltd., Cambridge, UK
-      credentialid:
-      credentialurl: https://www.learningtree.co.uk/courses/advanced-python-course/
-      credentialname: Learning Tree
-      details:
+      title: Professional Training
+      list:
+        - name: Expert Product Development wiht Python
+          start: 2022
+          end:
+          organization: Arm Ltd., Cambridge, UK
+          credentialid:
+          credentialurl: https://www.doulos.com/epdp
+          credentialname: Doulos
+          details:
 
-    - name: C++ Programming for Embedded Systems
-      start: 2021
-      end:
-      organization: Arm Ltd., Cambridge, UK
-      credentialid:
-      credentialurl: https://www.doulos.com
-      credentialname: Doulos
-      details:
+        - name: Advanced Python Training
+          start: 2022
+          end:
+          organization: Arm Ltd., Cambridge, UK
+          credentialid:
+          credentialurl: https://www.learningtree.co.uk/courses/advanced-python-course/
+          credentialname: Learning Tree
+          details:
 
-    - name:
-      start:
-      end:
-      organization: Arm Ltd., Cambridge, UK
-      credentialid:
-      credentialurl:
-      credentialname:
-      details:
+        - name: C++ Programming for Embedded Systems
+          start: 2021
+          end:
+          organization: Arm Ltd., Cambridge, UK
+          credentialid:
+          credentialurl: https://www.doulos.com
+          credentialname: Doulos
+          details:
 
-    - name:
-      start:
-      end:
-      organization: Arm Ltd., Cambridge, UK
-      credentialid:
-      credentialurl:
-      credentialname:
-      details:
+        - name: Practical Deep Learning
+          start: 2020
+          end:
+          organization: Arm Ltd., Cambridge, UK
+          credentialid:
+          credentialurl:
+          credentialname: Doulos
+          details:
 
-    - name:
-      start:
-      end:
-      organization: Arm Ltd., Cambridge, UK
-      credentialid:
-      credentialurl:
-      credentialname:
-      details:
+        - name: iPhone (iOS9) and Swift 2.2
+          start: 2016
+          end:
+          organization: Arm Ltd., Cambridge, UK
+          credentialid:
+          credentialurl:
+          credentialname: University of Perugia, Perugia, IT
+          details: |
+            [DipMatBeacon](https://github.com/diegorusso/DipMatBeacon) - App used to check the booking state of university rooms
 
-    - name:
-      start:
-      end:
-      organization: Arm Ltd., Cambridge, UK
-      credentialid:
-      credentialurl:
-      credentialname:
-      details:
+        - name: MongoDB Administration and Developers training
+          start: 2015
+          end:
+          organization: Arm Ltd., Cambridge, UK
+          credentialid:
+          credentialurl:
+          credentialname: MongoDB
+          details:
 
-    - name:
-      start:
-      end:
-      organization: Arm Ltd., Cambridge, UK
-      credentialid:
-      credentialurl:
-      credentialname:
-      details:
+        - name: Cryptography 1
+          start: 2014
+          end:
+          organization: Online
+          credentialid:
+          credentialurl: http://bit.ly/coursera-crypto1
+          credentialname: Coursera
+          details:
 
-    - name:
-      start:
-      end:
-      organization: Arm Ltd., Cambridge, UK
-      credentialid:
-      credentialurl:
-      credentialname:
-      details:
+        - name: ITIL Foundation
+          start: 2013
+          end:
+          organization: Arm Ltd., Cambridge, UK
+          credentialid:
+          credentialurl:
+          credentialname: ILX Group
+          details:
+
+        - name: iPhone (iOS4) and Objective-C
+          start: 2011
+          end:
+          organization: University of Perugia, Perugia, IT
+          credentialid:
+          credentialurl:
+          credentialname:
+          details: Customised existent VOIP app
 
 
 projects:
-  title: Licenses
-  intro:
-  assignments:
-    - title:
-      tagline: Radio-amateur class A license (Nr. 020122/AN)/ International
-        callsign IZ0OVB – C.I.S.A.R. Foligno’s section – 2007
+    title: Licenses
+    intro:
+    assignments:
+      - title:
+        tagline: Radio-amateur class A license (Nr. 020122/AN)/ International
+          callsign IZ0OVB – C.I.S.A.R. Foligno’s section – 2007
 
 publications:
-  title: Affiliations
-  intro:
-  papers:
-    - title: The AES implementation based on OpenCL for multi/many core architecture
-      link: "https://doi.org/10.1109/ICCSA.2010.44"
-      conference: ICCSA 2010, Sangyo Uni., Fukuoka, JP
+    title: Affiliations
+    intro:
+    papers:
+      - title: The AES implementation based on OpenCL for multi/many core architecture
+        link: "https://doi.org/10.1109/ICCSA.2010.44"
+        conference: ICCSA 2010, Sangyo Uni., Fukuoka, JP
 
-    - title: "EuroPython Conference: Volunteer/Attendee"
-      link: "https://europython.eu"
-      conference: "Florence, Berlin, Bilbao, Rimini, Edinburgh, Online, Prague"
+      - title: "EuroPython Conference: Volunteer/Attendee"
+        link: "https://europython.eu"
+        conference: "Florence, Berlin, Bilbao, Rimini, Edinburgh, Online, Prague"
 
 footer: >
-  Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
